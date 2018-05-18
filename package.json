@@ -1,0 +1,28 @@
+{
+  "name": "pusher-react-electron-chatkit",
+  "version": "0.0.1",
+  "license": "MIT",
+  "homepage": "./",
+  "main": "src/electron-starter.js",
+  "devDependencies": {
+    "electron": "^2.0.1",
+    "foreman": "^2.0.0",
+    "react-scripts": "^1.0.14"
+  },
+  "dependencies": {
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "@pusher/chatkit": "^0.7.9",
+    "cors": "^2.8.4",
+    "pusher-chatkit-server": "^0.11.2",
+    "react-desktop": "^0.3.5"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "server": "node server.js",
+    "test": "react-scripts test --env=jsdom",
+    "electron": "electron .",
+    "dev": "nf start -p 3000"
+  }
+}
